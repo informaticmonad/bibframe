@@ -47,13 +47,18 @@ not used here
 * @interpretations:
     * scope: @resource
 
+<!---
+
+The following terms are examples that can be copy & pasted as frameworks for new terms.
+
+-->
 
 ## titleProper
 
 * label: title proper
 * refines: <http://bibfra.me/vocab/lite/title>
 * synonyms: 
-* description: The proper title
+* description: The title proper
 * value: Literal
 * scope: <http://bibfra.me/vocab/rarematerials>
 * remark: Required element.
@@ -74,3 +79,9 @@ not used here
 * description: Superscript numbers represent the number of leaves per gathering. A signature is letter, numeral, symbol, or a group of such characters, printed at the foot of the rectos of the first few leaves of an intended gathering for the purpose of aiding binders in correctly assembling the sections.
 * value: Literal
 * scope: <http://bibfra.me/vocab/rarematerials>
+
+<!---
+
+FYI - Task Force members can separate individual sections of the document using comments. 
+
+-->
