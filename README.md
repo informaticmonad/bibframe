@@ -17,14 +17,14 @@ To seek community partners for these solution(s)
 Volunteers
 =====
 
-Allison Jai O’Dell, Metadata Librarian, University of Florida Libraries (task force chair, BSC member)
-Amy Tims, Project Cataloger, American Antiquarian Society (BSC member)
-Arielle Middleman, Cataloger, Library Company of Philadelphia (volunteer)
-Dot Porter, Curator of Digital Research Services, Kislak Center for Special Collections, Rare Books and Manuscripts, Penn Libraries (volunteer)
-Linde M. Brocato, Catalog Librarian, University of Memphis (volunteer)
-Amber D’Ambrosio, Special Collections Librarian and Archivist, Dixie State University Library (volunteer)
-Maria Oldal, Head of Cataloging and Database Maintenance, The Morgan Library and Museum (volunteer)
-Gloria Gonzalez, Library Strategist, Zepheira (volunteer)
+* Allison Jai O’Dell, Metadata Librarian, University of Florida Libraries (task force chair, BSC member)
+* Amy Tims, Project Cataloger, American Antiquarian Society (BSC member)
+* Arielle Middleman, Cataloger, Library Company of Philadelphia (volunteer)
+* Dot Porter, Curator of Digital Research Services, Kislak Center for Special Collections, Rare Books and Manuscripts, Penn Libraries (volunteer)
+* Linde M. Brocato, Catalog Librarian, University of Memphis (volunteer)
+* Amber D’Ambrosio, Special Collections Librarian and Archivist, Dixie State University Library (volunteer)
+* Maria Oldal, Head of Cataloging and Database Maintenance, The Morgan Library and Museum (volunteer)
+* Gloria Gonzalez, Library Strategist, Zepheira (volunteer)
 
 See also: [Task Force to Explore Data Elements for Rare Materials Description Wiki Page](http://derm.pbworks.com/w/page/99120051/FrontPage)
 
