@@ -49,7 +49,27 @@ not used here
 
 <!---
 
-The following terms are examples that can be copy & pasted as frameworks for new terms. To define a class use one hash # and to define a property use two ##. 
+The terms below this comment are examples that can be copy & pasted as templates for new terms. To define a class use one hash # and to define a property use two ##. For example: 
+
+```
+# Resource
+
+* synonyms: http://bibframe.org/vocab/Resource http://schema.org/Thing
+* label: Resource
+* description: Conceptual Resource
+* properties: label description image link
+```
+
+A section defining a resource type (analogous to an RDF class), as indicated by convention in this case by a top-level header marker (`#`). The List (multiple lines starting with (`*` then space) defines properties of the resource, or really metaproperties in this case.
+
+```
+## property
+
+* description: a relationship between two resources or a resource and literal data
+* label: property
+```
+
+A section defining a property (analogous to an RDF property), as indicated by convention in this case by a second-level header marker (`##`). Again the List defines metaproperties of the property.
 
 -->
 
