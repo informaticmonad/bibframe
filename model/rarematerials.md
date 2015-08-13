@@ -55,7 +55,7 @@ not used here
 * synonyms: 
 * description: The proper title
 * value: Literal
-* scope: <http://bibfra.me/vocab/dcrmb>
+* scope: <http://bibfra.me/vocab/rarematerials>
 * remark: Required element.
 
 ## datePublication
@@ -64,13 +64,13 @@ not used here
 * refines: <http://bibfra.me/vocab/lite/providerDate>
 * description: The date of publication.
 * value: Literal
-* scope: <http://bibfra.me/vocab/dcrmb>
+* scope: <http://bibfra.me/vocab/rarematerials>
 * remark: Required element. Recommended ISO 8601 date.
 
 ## signature
 
-* label: signature
+* label: signature note
 * refines: <http://bibfra.me/vocab/lite/note>
-* description: Lists or summaries of signatures often printed at the end of early printed books.
+* description: Superscript numbers represent the number of leaves per gathering. A signature is letter, numeral, symbol, or a group of such characters, printed at the foot of the rectos of the first few leaves of an intended gathering for the purpose of aiding binders in correctly assembling the sections.
 * value: Literal
-* scope: <http://bibfra.me/vocab/dcrmb>
+* scope: <http://bibfra.me/vocab/rarematerials>
