@@ -1,4 +1,4 @@
-Task Force to Explore Data Elements for Rare Materials Description
+RBMS Bibliographic Standards Committee (BSC) Task Force to Explore Data Elements for Rare Materials Description
 ========
 
 This repository is the drafting space for work being done by the Task Force to Explore Data Elements for Rare Materials Description. 
