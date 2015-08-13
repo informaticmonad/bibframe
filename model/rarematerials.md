@@ -49,7 +49,7 @@ not used here
 
 <!---
 
-The following terms are examples that can be copy & pasted as frameworks for new terms.
+The following terms are examples that can be copy & pasted as frameworks for new terms. To define a class use one hash # and to define a property use two ##. 
 
 -->
 
