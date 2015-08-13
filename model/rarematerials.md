@@ -1,39 +1,26 @@
 <!---
 
-BIBFRAME DCRMB is a starting point for rare book vocabularies using the 
-BIBFRAME model and profiles. The scope of DCRMB is rare printed monographs of 
-any type of production or age. Rare music, serials, maps and manuscripts are out
-of scope with the exception of individual serials or special issues that are
-treated as monographs. Although intended for the description of materials created
-before the introduction of machine printing during the 19th century, it may be
-used to describe any rare printed monograph including but not limited to artist'
-books, machine-press publications, printing-press publications and other
-contemporary print publications. It builds off of the BIBFRAME Lite vocabulary. 
-It is framework conformant to BIBFRAME, the DCRM principles of construction, 
-RDA where applicable. and where possible, link-compatible with the 
-US Library of Congress's BIBFRAME vocabulary, http://bibframe.org/
+This document is a draft of work being done by the Task Force to Explore Data Elements for Rare Materials Description. 
 
+Proposal
+A Bibliographic Standards Committee (BSC) task force is proposed to explore and document data elements needed for rare materials description.  The task force will convene for one year, concluding its work prior to, and reporting at, the BSC meeting held at the 2016 ALA Annual Conference & Exhibition.
+ 
+Charge
+To determine a list of data elements complementary to the Descriptive Cataloging of Rare Materials (DCRM) suite, the RBMS Policy Statements for RDA, the Controlled Vocabularies for Use in Rare Book and Special Collections Cataloging, and rare materials user needs
+To recommend solution(s) for incorporating these data elements into library and archives data models, schemata, and tools
+To seek community partners for these solution(s)
+ 
+Volunteers
+· Allison Jai O’Dell, Metadata Librarian, University of Florida Libraries (task force chair, BSC member)
+· Amy Tims, Project Cataloger, American Antiquarian Society (BSC member)
+· Arielle Middleman, Cataloger, Library Company of Philadelphia (volunteer)
+· Dot Porter, Curator of Digital Research Services, Kislak Center for Special Collections, Rare Books and Manuscripts, Penn Libraries (volunteer)
+· Linde M. Brocato, Catalog Librarian, University of Memphis (volunteer)
+· Amber D’Ambrosio, Special Collections Librarian and Archivist, Dixie State University Library (volunteer)
+· Maria Oldal, Head of Cataloging and Database Maintenance, The Morgan Library and Museum (volunteer)
+· Gloria Gonzalez, Library Strategist, Zepheira (volunteer)
 
-BIBFRAME DCRMB is expressed using the Versa data model, which also
-allows for full expression in RDF form.  This particular file is in
-the Versa Literate syntax, based on the Markdown format
-<https://daringfireball.net/projects/markdown/basics>.
-
-The convention for expressing data models in Versa Literate has each
-vocabulary item starting with a new header, A level 1 header for
-resource classes and level 2 for properties.  Each has its ID as an
-IRI reference (usually relative). Each is then described within its
-section's unordered list, given a "label" (display label),
-"description" (also for explanatory display), possibly "synonyms" (one
-or more loose expression that the resource can be considered a synonym
-for another). Resource classes may also have "properties"
-(space-separated list of property IDs defined on the
-resource). Properties may also have "value" (textual description of
-the expected value of the property, perhaps as a relationship to
-another resource, or as a data value).
-
-You'll notice that BIBFRAME DCRMB terms use a humpCase/HumpCase convention,
-which derives from BIBFRAME legacy.
+For more information visit: http://derm.pbworks.com/w/page/99120051/FrontPage
 
 -->
 
@@ -54,9 +41,9 @@ not used here
 -->
 
 * @iri:
-    * @base: http://bibfra.me/vocab/dcrmb/
+    * @base: http://bibfra.me/vocab/rarematerials/
     * @property: http://bibfra.me/purl/versa/support
-* title: BIBFRAME DCRM(B) vocabulary
+* title: Rare Materials Data Elements
 * @interpretations:
     * scope: @resource
 
