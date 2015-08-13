@@ -1,31 +1,6 @@
 <!---
 
-BIBFRAME RELATION is a starting point for customized MARC Relator vocabularies using
-the BIBFRAME model and profiles.  It builds off of the BIBFRAME Lite
-vocabulary. It is framework conformant to BIBFRAME (and in theory MARC)
-and where possible, link-compatible with the US Library of Congress's
-BIBFRAME vocabulary, http://bibframe.org/
-
-BIBFRAME RELATION is expressed using the Versa data model, which also
-allows for full expression in RDF form.  This particular file is in
-the Versa Literate syntax, based on the Markdown format
-<https://daringfireball.net/projects/markdown/basics>.
-
-The convention for expressing data models in Versa Literate has each
-vocabulary item starting with a new header, A level 1 header for
-resource classes and level 2 for properties.  Each has its ID as an
-IRI reference (usually relative). Each is then described within its
-section's unordered list, given a "label" (display label),
-"description" (also for explanatory display), possibly "synonyms" (one
-or more loose expression that the resource can be considered a synonym
-for another). Resource classes may also have "properties"
-(space-separated list of property IDs defined on the
-resource). Properties may also have "value" (textual description of
-the expected value of the property, perhaps as a relationship to
-another resource, or as a data value).
-
-You'll notice that BIBFRAME RELATION terms use a humpCase/HumpCase convention,
-which derives from BIBFRAME legacy.
+RARE MATERIALS RELATION is a starting point for scoping data elements from RBMS Relationship Designators. It is inteneded to demonstrate how http://www.rbms.info/vocabularies/relators can be used as Linked Data. 
 
 -->
 
@@ -51,6 +26,60 @@ not used here
 * title: BIBFRAME RELATION vocabulary
 * @interpretations:
     * scope: @resource
+
+## annotator
+* label: annotator
+* refines: * refines: <http://bibfra.me/vocab/relation/associatedname>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: ann
+* description: Writer of manuscript annotations on a printed item
+
+## artist
+* label: artist
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: art
+* description: Entity responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, or other work of art
+* remark: Use specific terms when possible (for example, for book illustrators, use illustrator)
+
+## assignee
+* label: assignee
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: asg
+* description: Entity to whom a license for printing or publishing has been transferred
+
+## associatedname
+* label: associated name
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: asn
+* description: Name associated with or found in an item or collection, but which cannot be determined to be that of a “former owner” or other relator indicative of provenance
+
+## attributedname
+* label: attributed name
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: att
+* description: Author, artist, etc. related to a work for which there is or once was substantial authority for designating that person as author, creator, etc.
+* remark: Use for supposed name
+
+
+
+
+
+## illustrator
+* label: illustrator
+* refines: <http://bibfra.me/vocab/relation/artist>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: ill
+* description: Person, family, or organization contributing to a resource by supplementing the primary content with drawings, diagrams, photographs, etc. If the work is primarily the artistic content created by this entity, use artist or photographer
+
+
+<!--- 
+All terms listed below this comment are from http://bibfra.me/vocab/relation, mostly extracted from MARC relator terms. As http://www.rbms.info/vocabularies/relators terms are listed above, any overlapping terms from below will be moved above and reused with rbms definitions. For now, MARC relator abbreviations are kept as synonyms. 
+-->
+
 
 <!--- 
 Work to Work relationships 
@@ -327,13 +356,6 @@ MARC Relator Codes and Terms recast as properties
 * synonyms: anm
 * description: A person contributing to a moving image work or computer program by giving apparent movement to inanimate objects or drawings. For the creator of the drawings that are animated, see artist
 
-## annotator
-* label: annotator
-* refines: <http://bibfra.me/vocab/lite/contributor>
-* scope: <http://bibfra.me/vocab/relation>
-* synonyms: ann
-* description: A person who makes manuscript annotations on an item
-
 ## appellant
 * label: appellant
 * refines: <http://bibfra.me/vocab/lite/contributor>
@@ -393,40 +415,12 @@ MARC Relator Codes and Terms recast as properties
 * synonyms: adi
 * description: A person contributing to a motion picture or television production by overseeing the artists and craftspeople who build the sets
 
-## artist
-* label: artist
-* refines: <http://bibfra.me/vocab/lite/contributor>
-* scope: <http://bibfra.me/vocab/relation>
-* synonyms: art
-* description: A person, family, or organization responsible for creating a work by conceiving, and implementing, an original graphic design, drawing, painting, etc. For book illustrators, prefer Illustrator [ill]
-
 ## artisticdirector
 * label: artistic director
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: ard
 * description: A person responsible for controlling the development of the artistic style of an entire production, including the choice of works to be presented and selection of senior production staff
-
-## assignee
-* label: assignee
-* refines: <http://bibfra.me/vocab/lite/contributor>
-* scope: <http://bibfra.me/vocab/relation>
-* synonyms: asg
-* description: A person or organization to whom a license for printing or publishing has been transferred
-
-## associatedname
-* label: associated name
-* refines: <http://bibfra.me/vocab/lite/contributor>
-* scope: <http://bibfra.me/vocab/relation>
-* synonyms: asn
-* description: A person or organization associated with or found in an item or collection, which cannot be determined to be that of a Former owner [fmo] or other designated relationship indicative of provenance
-
-## attributedname
-* label: attributed name
-* refines: <http://bibfra.me/vocab/lite/contributor>
-* scope: <http://bibfra.me/vocab/relation>
-* synonyms: att
-* description: An author, artist, etc., relating him/her to a resource for which there is or once was substantial authority for designating that person as author, creator, etc. of the work
 
 ## auctioneer
 * label: auctioneer
@@ -1319,13 +1313,6 @@ MARC Relator Codes and Terms recast as properties
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: ilu
 * description: A person providing decoration to a specific item using precious metals or color, often with elaborate designs and motifs
-
-## illustrator
-* label: illustrator
-* refines: <http://bibfra.me/vocab/lite/contributor>
-* scope: <http://bibfra.me/vocab/relation>
-* synonyms: ill
-* description: A person, family, or organization contributing to a resource by supplementing the primary content with drawings, diagrams, photographs, etc. If the work is primarily the artistic content created by this entity, use artist or photographer
 
 ## imprimatur
 * label: imprimatur
