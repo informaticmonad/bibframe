@@ -94,7 +94,7 @@ not used here
 * synonyms: bsl
 * description: Agent who conceives and perhaps also executes an artist's book
 
-## bookdesigner
+## bookDesigner
 * label: book designer
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
@@ -213,7 +213,47 @@ not used here
 * synonyms: cov
 * description: A person or organization responsible for the graphic design of a book cover, album cover, slipcase, box, container, etc. For a person or organization responsible for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer
 
+## dedicatee
+* label: dedicatee
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: dte
+* description: Agent to whom a resource is dedicated
 
+## dedicator
+* label: dedicator
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: dto
+* description: Agent who writes a dedication
+
+## depositor
+* label: depositor
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: dpt
+* description: Current owner of an item who deposited the item into the custody of another agent while still retaining ownership
+
+## distributor
+* label: distributor
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: dst
+* description: Agent that has exclusive or shared marketing rights for a resource
+
+## donor
+* label: donor
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: dnr
+* description: Former owner of an item who donated that item to another owner
+
+## draftsman
+* label: draftsman
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: drm
+* description: Agent contributing to a resource by an architect, inventor, etc., by making detailed plans or drawings for buildings, ships, aircraft, machines, objects, etc.
 
 
 
