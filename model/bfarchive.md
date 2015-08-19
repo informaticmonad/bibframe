@@ -111,6 +111,9 @@ Properties - [Terms below are mapped from Structural and Other Limited EAD Eleme
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equivalent to EAD ID <eadid>
 
+<!---
+
+List of EAD Elements:
 
 <filedesc> – 
 <titlestmt> – Title Statement
@@ -149,13 +152,8 @@ Properties - [Terms below are mapped from Structural and Other Limited EAD Eleme
 <unittitle> – Title of a Unit
 <unitdate> – Date of a Unit
 
-<!---
 
 Terms below are mapped from generic elements used within <archdesc>, <archdescgrp>, <c>/<c01> (through <c12>), and <descgrp>
-
--->
-
-
 
 
 <accessrestrict> – Conditions Governing Access
@@ -244,11 +242,9 @@ Table Elements
 <row> – Table Row
 <entry> – Table Entry
 
-<!---
 
 Terms below are mapped from EAD linking elements
 
--->
 
 <arc> – Arc
 <archref> – Archival Reference
@@ -274,6 +270,7 @@ Other Elements
 <dscgrp> – Description of Subordinate Components Group
 <runner> – Runner
 
+-->
 
 ## titleProper
 
