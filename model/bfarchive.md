@@ -272,34 +272,6 @@ Other Elements
 
 -->
 
-## titleProper
-
-* label: title proper
-* refines: <http://bibfra.me/vocab/lite/title>
-* synonyms: 
-* description: The proper title
-* value: Literal
-* scope: <http://bibfra.me/vocab/dcrmb>
-* remark: Required element.
-
-## datePublication
-
-* label: date publication
-* refines: <http://bibfra.me/vocab/lite/providerDate>
-* description: The date of publication.
-* value: Literal
-* scope: <http://bibfra.me/vocab/dcrmb>
-* remark: Required element. Recommended ISO 8601 date.
-
-## signature
-
-* label: signature
-* refines: <http://bibfra.me/vocab/lite/note>
-* description: Lists or summaries of signatures often printed at the end of early printed books.
-* value: Literal
-* scope: <http://bibfra.me/vocab/dcrmb>
-
-
 <!---
 
 EAD elements below are not mapped to the terms above: 
