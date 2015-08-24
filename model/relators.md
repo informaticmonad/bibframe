@@ -255,7 +255,36 @@ not used here
 * synonyms: drm
 * description: Agent contributing to a resource by an architect, inventor, etc., by making detailed plans or drawings for buildings, ships, aircraft, machines, objects, etc.
 
+<!---
 
+Approved: Scope notes for the following 12 terms have been finalized and will be added to the Controlled Vocabularies genre list in the next update: http://rbms.info/vocabularies/genre/alphabetical_list.htm
+Academic dissertations
+Abridgments
+Novenas
+Annual reports
+Anniversary sermons
+Anatomical atlases
+Anagrams
+Anthologies
+Anti-homosexual literature
+Anti-communist literature
+Anti-clerical literature
+Anti-Catholic literature
+ 
+Deleted:
+Alphabets
+Oriental tales
+
+Under-going comment until Aug 28:
+Account books
+Acrostics
+Adaptations
+Addresses
+Advertisements
+Publishers’ advertisements
+Administrative regulations
+
+-->
 
 
 
