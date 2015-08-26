@@ -41,7 +41,7 @@ not used here
 -->
 
 * @iri:
-    * @base: http://bibfra.me/vocab/rarematerials/
+    * @base: http://bibfra.me/vocab/rare/
     * @property: http://bibfra.me/purl/versa/support
 * title: Rare Materials Data Elements
 * @interpretations:
@@ -80,7 +80,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 * synonyms: 
 * description: The title proper
 * value: Literal
-* scope: <http://bibfra.me/vocab/rarematerials>
+* scope: <http://bibfra.me/vocab/rare>
 * remark: Required element.
 
 ## datePublication
@@ -89,7 +89,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 * refines: <http://bibfra.me/vocab/lite/providerDate>
 * description: The date of publication.
 * value: Literal
-* scope: <http://bibfra.me/vocab/rarematerials>
+* scope: <http://bibfra.me/vocab/rare>
 * remark: Required element. Recommended ISO 8601 date.
 
 ## signature
@@ -98,7 +98,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 * refines: <http://bibfra.me/vocab/lite/note>
 * description: Superscript numbers represent the number of leaves per gathering. A signature is letter, numeral, symbol, or a group of such characters, printed at the foot of the rectos of the first few leaves of an intended gathering for the purpose of aiding binders in correctly assembling the sections.
 * value: Literal
-* scope: <http://bibfra.me/vocab/rarematerials>
+* scope: <http://bibfra.me/vocab/rare>
 
 <!---
 
