@@ -152,7 +152,7 @@ not used here
 
 ## collotyper
 * label: collotyper
-* refines: <http://bibfra.me/vocab/lite/contributor>
+* refines: <http://bibfra.me/vocab/relation/electrotyper>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: clt
 * description: Agent involved in manufacturing a manifestation of photographic prints from film or other colloid that has ink-receptive and ink-repellent surfaces
@@ -255,6 +255,36 @@ not used here
 * synonyms: drm
 * description: Agent contributing to a resource by an architect, inventor, etc., by making detailed plans or drawings for buildings, ships, aircraft, machines, objects, etc.
 
+## editor
+* label: editor
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: edt
+* description: A person, family, or organization responsible for preparing for publication a work not primarily his/her/its own, such as by elucidating text, adding introductory or other critical matter, or technically directing an editorial staff
+
+## electrotyper
+* label: electrotyper
+* refines: <http://bibfra.me/vocab/relation/platemaker>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: elt
+* description: A person or organization who creates a duplicate printing surface by pressure molding and electrodepositing of metal that is then backed up with lead for printing
+
+## engraver
+* label: engraver
+* refines: <http://bibfra.me/vocab/relation/artist>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: egr
+* description: A person or organization who cuts letters, figures, etc. on a surface, such as a wooden or metal plate used for printing
+
+## etcher
+* label: etcher
+* refines: <http://bibfra.me/vocab/relation/artist>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: etr
+* description: A person or organization who produces text or images for printing by subjecting metal, glass, or some other surface to acid or the corrosive action of some other substance
+
+
+
 <!---
 
 Approved: Scope notes for the following 12 terms have been finalized and will be added to the Controlled Vocabularies genre list in the next update: http://rbms.info/vocabularies/genre/alphabetical_list.htm
@@ -283,6 +313,15 @@ Addresses
 Advertisements
 Publishers’ advertisements
 Administrative regulations
+
+MARC relators not included in RBMS terms - 
+
+* editorofcompilation
+* editorofmovingimagework
+
+Notes: 
+
+* platemaker/electrotyper/collotyper refinement
 
 -->
 
