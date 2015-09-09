@@ -106,3 +106,8 @@ FYI - Task Force members can separate individual sections of the document using 
 
 -->
 
+<!---
+Below are binding terms edited by Arielle Middlemman. These are limited to terms from RBMS Controlled Vocabularies as of 9/9/2015
+
+-->
+
