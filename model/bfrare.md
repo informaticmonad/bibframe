@@ -116,7 +116,7 @@ Below are binding terms edited by Arielle. These are limited to terms from RBMS 
 * label: Accordion fold format
 * refines:
 * synonyms: Double leaf format ; Orihon format
-* description: 
+* description: Book format in which the individual leaves are conjoined sequentially to fold out.
 * value: Literal 
 * scope: <http://bibfra.me/vocab/rare>
 * remark: type of text block structure
@@ -126,7 +126,27 @@ Below are binding terms edited by Arielle. These are limited to terms from RBMS 
 * label: Adhesive bindings
 * refines:
 * synonyms: Perfect bindings
-* description: 
+* description: A term commonly used for modern unsewn bookbindings whose structure depends on glue to hold the leaves together
 * value: Literal 
 * scope: <http://bibfra.me/vocab/rare>
 * remark: type of binding structure
+
+## All along sewing
+
+* label: All along sewing
+* refines:
+* synonyms: 
+* description: The most thorough form of flexible sewing, in which the thread is passed around every sewing support.
+* value: Literal 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: Sewing pattern
+
+## All-over style binding
+
+* label: All-over style binding
+* refines:
+* synonyms: 
+* description: A style of decoration in which a small, repeated pattern covers the whole of the side of the cover of a book.
+* value: Literal 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
