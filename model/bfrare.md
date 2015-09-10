@@ -116,17 +116,17 @@ Below are binding terms edited by Arielle. These are limited to terms from RBMS 
 * label: Accordion fold format
 * refines:
 * synonyms: Double leaf format ; Orihon format
-* description: Book format in which the individual leaves are conjoined sequentially to fold out.
+* description: Book format in which the individual leaves are conjoined sequentially to fold out, rather than the more conventional structure, in which leaves are hinged around a single join.
 * value: Literal 
 * scope: <http://bibfra.me/vocab/rare>
-* remark: type of text block structure
+* remark: type of text block structure. Description source: "accordion book." In The Oxford Companion to the Book. : Oxford University Press, 2010.
 
 ## Adhesive bindings
 
 * label: Adhesive bindings
 * refines:
 * synonyms: Perfect bindings
-* description: A term commonly used for modern unsewn bookbindings whose structure depends on glue to hold the leaves together
+* description: A term commonly used for modern unsewn bookbindings whose structure depends on glue to hold the leaves together.
 * value: Literal 
 * scope: <http://bibfra.me/vocab/rare>
 * remark: type of binding structure
@@ -136,7 +136,7 @@ Below are binding terms edited by Arielle. These are limited to terms from RBMS 
 * label: All along sewing
 * refines:
 * synonyms: 
-* description: The most thorough form of flexible sewing, in which the thread is passed around every sewing support.
+* description: The most thorough form of flexible sewing, in which the thread is passed around every sewing support as it is run up and down the quires.
 * value: Literal 
 * scope: <http://bibfra.me/vocab/rare>
 * remark: Sewing pattern
@@ -147,6 +147,16 @@ Below are binding terms edited by Arielle. These are limited to terms from RBMS 
 * refines:
 * synonyms: 
 * description: A style of decoration in which a small, repeated pattern covers the whole of the side of the cover of a book.
+* value: Literal 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## Alum tawed bindings
+
+* label: Alum tawed bindings
+* refines:
+* synonyms: White tawed leather ; alum-tawed skin ; tawed skin
+* description: Book covering made from animal skin treated with aluminum salts mixed with a variety of binders and protein sources to 
 * value: Literal 
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
