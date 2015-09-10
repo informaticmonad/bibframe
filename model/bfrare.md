@@ -107,7 +107,26 @@ FYI - Task Force members can separate individual sections of the document using 
 -->
 
 <!---
-Below are binding terms edited by Arielle Middlemman. These are limited to terms from RBMS Controlled Vocabularies as of 9/9/2015
+Below are binding terms edited by Arielle. These are limited to terms from RBMS Controlled Vocabularies as of 9/9/2015
 
 -->
 
+## Accordion fold format
+
+* label: Accordion fold format
+* refines:
+* synonyms: Double leaf format ; Orihon format
+* description: 
+* value: Literal 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: type of text block structure
+
+## Adhesive bindings
+
+* label: Adhesive bindings
+* refines:
+* synonyms: Perfect bindings
+* description: 
+* value: Literal 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: type of binding structure
