@@ -206,7 +206,7 @@ not used here
 * synonyms: ctb
 * description: A person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator.
 
-## coverdesigner
+## coverDesigner
 * label: cover designer
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
@@ -260,28 +260,60 @@ not used here
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: edt
-* description: A person, family, or organization responsible for preparing for publication a work not primarily his/her/its own, such as by elucidating text, adding introductory or other critical matter, or technically directing an editorial staff
+* description: Agent responsible for preparing for publication a work not primarily his/her/its own, such as by elucidating text, adding introductory or other critical matter, or technically directing an editorial staff
 
 ## electrotyper
 * label: electrotyper
 * refines: <http://bibfra.me/vocab/relation/platemaker>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: elt
-* description: A person or organization who creates a duplicate printing surface by pressure molding and electrodepositing of metal that is then backed up with lead for printing
+* description: Agent who creates a duplicate printing surface by pressure molding and electrodepositing of metal that is then backed up with lead for printing
 
 ## engraver
 * label: engraver
 * refines: <http://bibfra.me/vocab/relation/artist>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: egr
-* description: A person or organization who cuts letters, figures, etc. on a surface, such as a wooden or metal plate used for printing
+* description: Agent who cuts letters, figures, etc. on a surface, such as a wooden or metal plate used for printing
 
 ## etcher
 * label: etcher
 * refines: <http://bibfra.me/vocab/relation/artist>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: etr
-* description: A person or organization who produces text or images for printing by subjecting metal, glass, or some other surface to acid or the corrosive action of some other substance
+* description: Person or organization who produces text or images for printing by subjecting metal, glass, or some other surface to acid or the corrosive action of some other substance
+
+## facsimilist
+* label: facsimilist
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: etr
+* description: Person or organization responsible for executing a facsimile or exact copy
+* remark: Use for copier
+
+## fore-edgePainter
+* label: fore-edge painter
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: 
+* description: Painter of a fore-edge painting
+* remark: Use for fore-edge artist
+
+## forger
+* label: forger
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: 
+* description: Agent who produces fraudulent copies or imitations
+* remark: Use for copier and counterfeiter
+
+## formerOwner
+* label: former owner
+* refines: <http://bibfra.me/vocab/relation/associatedName>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: fmo
+* description: Agent who formerly had legal possession of an item
+* remark: Use for inscribee
 
 
 
