@@ -107,7 +107,7 @@ FYI - Task Force members can separate individual sections of the document using 
 -->
 
 <!---
-Below are binding terms edited by Arielle. These are limited to terms from RBMS Controlled Vocabularies as of 9/9/2015
+Below are binding terms edited by Arielle.
 
 -->
 
