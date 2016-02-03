@@ -548,59 +548,12 @@ not used here
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * description: Person or organization who makes prints by cutting the image in relief on the plank side of a wood block
-* 
+
 ## zinester
 * label: zinester
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * description: Person who creates a zine
-
-
-
-
-
-
-
-
-<!---
-
-Approved: Scope notes for the following 12 terms have been finalized and will be added to the Controlled Vocabularies genre list in the next update: http://rbms.info/vocabularies/genre/alphabetical_list.htm
-Academic dissertations
-Abridgments
-Novenas
-Annual reports
-Anniversary sermons
-Anatomical atlases
-Anagrams
-Anthologies
-Anti-homosexual literature
-Anti-communist literature
-Anti-clerical literature
-Anti-Catholic literature
- 
-Deleted:
-Alphabets
-Oriental tales
-
-Under-going comment until Aug 28:
-Account books
-Acrostics
-Adaptations
-Addresses
-Advertisements
-Publishers’ advertisements
-Administrative regulations
-
-MARC relators not included in RBMS terms - 
-
-* editorofcompilation
-* editorofmovingimagework
-
-Notes: 
-
-* platemaker/electrotyper/collotyper refinement
-
--->
 
 
 
