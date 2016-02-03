@@ -431,7 +431,7 @@ not used here
 * scope: <http://bibfra.me/vocab/relation>
 * description: Person, family, or organization responsible for creating a photographic work
 
-# platemaker
+## platemaker
 * label: platemaker
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
