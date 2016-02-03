@@ -71,14 +71,14 @@ not used here
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: bnd
-* description: A person who binds an item
+* description: Person who binds an item
 
 ## bindingDesigner
 * label: binding designer
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: bdd
-* description: A person or organization responsible for the binding design of a book, including the type of binding, the type of materials used, and any decorative aspects of the binding
+* description: Person or organization responsible for the binding design of a book, including the type of binding, the type of materials used, and any decorative aspects of the binding
 
 ## blurbWriter
 * label: blurb writer
@@ -159,7 +159,7 @@ not used here
 
 ## colorist
 * label: colorist
-* refines: <http://bibfra.me/vocab/lite/contributor>
+* refines: <http://bibfra.me/vocab/relation/artist>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: clr
 * description: Agent responsible for applying color to drawings, prints, photographs, maps, etc.
@@ -204,14 +204,14 @@ not used here
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: ctb
-* description: A person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator.
+* description: Person, family or organization responsible for making contributions to the resource. This includes those whose work has been contributed to a larger work, such as an anthology, serial publication, or other compilation of individual works. If a more specific role is available, prefer that, e.g. editor, compiler, illustrator.
 
 ## coverDesigner
 * label: cover designer
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
 * synonyms: cov
-* description: A person or organization responsible for the graphic design of a book cover, album cover, slipcase, box, container, etc. For a person or organization responsible for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer
+* description: Person or organization responsible for the graphic design of a book cover, album cover, slipcase, box, container, etc. For a person or organization responsible for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer
 
 ## dedicatee
 * label: dedicatee
@@ -315,6 +315,251 @@ not used here
 * description: Agent who formerly had legal possession of an item
 * remark: Use for inscribee
 
+## graphictechnician
+* label: graphic technician
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person responsible for preparing graphic drawings, maps, displays and other visual resources
+
+## honoree
+* label: honoree
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person, family, or organization honored by a work or item (e.g., the honoree of a festschrift, a person to whom a copy is presented)
+
+## illustrator
+* label: illustrator
+* refines: <http://bibfra.me/vocab/relation/artist>
+* scope: <http://bibfra.me/vocab/relation>
+* synonyms: ill
+* description: Person, family, or organization contributing to a resource by supplementing the primary content with drawings, diagrams, photographs, etc. If the work is primarily the artistic content created by this entity, use artist or photographer
+
+## illuminator
+* label: illuminator
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person providing decoration to a specific item using precious metals or color, often with elaborate designs and motifs
+
+## indexer
+* label: indexer
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Entity responsible for compiling an index. 
+
+## inscriber
+* label: inscriber
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person who has written a statement of dedication or gift. Use for the entity that signs a presentation statement.
+
+## interviewee
+* label: interviewee
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person, family or organization responsible for creating or contributing to a resource by responding to an interviewer, usually a reporter, pollster, or some other information gathering agent
+
+## interviewer
+* label: interviewer
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person, family, or organization responsible for creating or contributing to a resource by acting as an interviewer, reporter, pollster, or some other information gathering agent
+
+## lender
+* label: lender
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization permitting the temporary use of a book, manuscript, etc., such as for photocopying or microfilming
+
+## licensee
+* label: licensee
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who is an original recipient of the right to print or publish
+
+## licensor
+* label: licensor
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who is a signer of the license, imprimatur, etc.
+
+## lithographer
+* label: lithographer
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who prepares the stone or plate for lithographic printing, including a graphic artist creating a design directly on the surface from which printing will be done.
+
+## marbler
+* label: marbler
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: The entity responsible for marbling paper, cloth, leather, etc. used in construction of a resource
+
+## medium
+* label: medium
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person who purports to communicate with spirits.
+* remark: Proposed by Laura O'Keefe, 8/03. Although modern specialist usage recognizes distinctions among the functions of "medium," "psychic," "channel," and "clairvoyant," these terms appear to be less distinct in earlier works. This accounts for the inclusion of UFs that are not strictly equivalent according to specialists in psychic phenomena.  
+
+## metal-engraver
+* label: metal-engraver
+* refines: <http://bibfra.me/vocab/lite/engraver>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Engraver responsible for decorations, illustrations, letters, etc. cut on a metal surface for printing or decoration
+
+## paperEngineer
+* label: paper engineer
+* refines: <http://bibfra.me/vocab/lite/engraver>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person responsible for the design of mechanisms of three-dimensional paper structures found in movable and pop-up books, greeting cards, etc.
+
+## papermaker
+* label: papermaker
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization responsible for the production of paper, usually from wood, cloth, or other fibrous material
+
+## patron
+* label: patron
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization responsible for commissioning a work. For the entity assuming primary responsibility for the production of a work, that is, the entity under the auspices of which a work is printed, published, etc., use http://bibfra.me/vocab/relation/sponsor.
+
+## photographer
+* label: photographer
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person, family, or organization responsible for creating a photographic work
+
+# platemaker
+* label: platemaker
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person, family, or organization involved in manufacturing a manifestation by preparing plates used in the production of printed images and/or text
+
+## stereotyper
+* label: stereotyper
+* refines: <http://bibfra.me/vocab/lite/platemaker>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who creates a new plate for printing by molding or copying another printing surface
+
+
+## printerOfPlates
+* label: printer of plates
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who prints illustrations from plates.
+
+## printmaker
+* label: printmaker
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who makes a relief, intaglio, or planographic printing surface
+
+## proofreader
+* label: proofreader
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person who corrects printed matter. For manuscripts, use Corrector [crr]
+
+## publisher
+* label: publisher
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization responsible for publishing, releasing, or issuing a resource
+
+## recipient
+* label: recipient
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Entity to whom correspondence is addressed.
+
+## rubricator
+* label: rubricator
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person or organization responsible for parts of a work, often headings or opening parts of a manuscript, that appear in a distinctive color, usually red
+
+## scribe
+* label: scribe
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person who is an amanuensis and for a writer of manuscripts proper. 
+* remark: For a person who makes pen-facsimiles, use Facsimilist [fac]
+
+## signer
+* label: signer
+* refines: <http://bibfra.me/vocab/lite/associatedname>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person whose signature appears without a presentation or other statement indicative of provenance. When there is a presentation statement, use Inscriber [ins].
+
+## sponsor
+* label: sponsor
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person, family, or organization sponsoring some aspect of a resource, e.g., funding research, sponsoring an event
+* remark: For the entity responsible for commissioning a work, use Patron.
+
+## stereotyper
+* label: stereotyper
+* refines: <http://bibfra.me/vocab/lite/platemaker>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person or organization who creates a new plate for printing by molding or copying another printing surface
+
+## subscriber
+* label: subscriber
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Entity responsible for purchasing or pledging to purchase an item in advance of its publication.
+* remark: Use for a person who purchases or pledges to purchase an item in advance of its publication.  
+
+## transcriber
+* label: transcriber
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person, family, or organization contributing to a resource by changing it from one system of notation to another. For a work transcribed for a different instrument or performing group, see Arranger [arr]. For makers of pen-facsimiles, use Facsimilist [fac]
+
+## typedesigner
+* label: type designer
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person or organization who designs the type face used in a particular item
+
+# typographer
+* label: typographer
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: A person or organization primarily responsible for choice and arrangement of type used in an item. If the typographer is also responsible for other aspects of the graphic design of a book (e.g., Book designer [bkd]), codes for both functions may be needed
+
+## witness
+* label: witness
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person who verifies the truthfulness of an event or action
+
+## woodengraver
+* label: wood engraver
+* refines: <http://bibfra.me/vocab/lite/engraver>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who makes prints by cutting the image in relief on the end-grain of a wood block
+
+## woodcutter
+* label: woodcutter
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person or organization who makes prints by cutting the image in relief on the plank side of a wood block
+* 
+## zinester
+* label: zinester
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* scope: <http://bibfra.me/vocab/relation>
+* description: Person who creates a zine
+
+
+
+
+
+
 
 
 <!---
@@ -359,9 +604,4 @@ Notes:
 
 
 
-## illustrator
-* label: illustrator
-* refines: <http://bibfra.me/vocab/relation/artist>
-* scope: <http://bibfra.me/vocab/relation>
-* synonyms: ill
-* description: Person, family, or organization contributing to a resource by supplementing the primary content with drawings, diagrams, photographs, etc. If the work is primarily the artistic content created by this entity, use artist or photographer
+
