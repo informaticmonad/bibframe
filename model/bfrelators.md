@@ -525,7 +525,7 @@ not used here
 * scope: <http://bibfra.me/vocab/relation>
 * description: A person or organization who designs the type face used in a particular item
 
-# typographer
+## typographer
 * label: typographer
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * scope: <http://bibfra.me/vocab/relation>
