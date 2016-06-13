@@ -107,8 +107,325 @@ FYI - Task Force members can separate individual sections of the document using 
 -->
 
 <!---
-Below are binding terms edited by Arielle.
+Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding elements already in the bibfra.me vocab (sometimes under a different label)
 
 -->
+
+## limitationStatement
+
+* label: Limitation Statement
+* refines: <http://bibfra.me/vocab/marc/edition>
+* synonyms: 
+* description: Statement regarding editioning and/or the limited number of copies in an edition
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## correctedTitle
+
+* label: Corrected Title
+* refines: <http://bibfra.me/vocab/lite/titleAlternative>
+* synonyms: 
+* description: Title corrected by cataloging agency
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## condition
+
+* label: Condition
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Condition report, including conservation/preservation needs
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## userEngagement
+
+* label: User Engagement
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Evidence of user or reader engagement, such as marks, inscriptions, and annotations
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## addedMaterials
+
+* label: Added Materials
+* refines: <http://bibfra.me/vocab/dcrmb/userEngagement>
+* synonyms: 
+* description: Description of materials added to the resource by a user, such as extra-illustrations and insertions.
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## userEngagementTerm
+
+* label: User Engagement Term
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Index terms for evidence of user or reader engagement, such as marks, inscriptions, annotations, and added materials
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## binding
+
+* label: 
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Description of bookbinding
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## sewing
+
+* label: 
+* refines: <http://bibfra.me/vocab/dcrmb/binding>
+* synonyms: 
+* description: Description of sewing structures used in bookbinding
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## bindingDesign
+
+* label: Cover Material
+* refines: <http://bibfra.me/vocab/dcrmb/binding>
+* synonyms: 
+* description: Description of surface design used in bookbinding, particularly of stylistic features and cultural/geographic/temporal context
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## bindingTerm
+
+* label: Binding Term
+* refines: <http://bibfra.me/vocab/dcrmb/binding>
+* synonyms: 
+* description: Index terms for binding
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+##bindingColor
+
+* label: Binding Color
+* refines: <http://bibfra.me/vocab/dcrmb/binding/bindingTerm>
+* synonyms: 
+* description: Index colors of bookbinding coloring material
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## boundWith
+
+* label: Bound With
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: URI for bound-with resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## material
+
+* label: Material
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Index materials used to make the resource, such as leather, cloth, vellum, or paper fibers
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## exhibition
+
+* label: Exhibition History
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Note about exhibitions that have featured the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## exhibitionCatalog
+
+* label: Featured in Exhibition Catalog
+* refines: <http://bibfra.me/vocab/dcrmb/citations>
+* synonyms: 
+* description: Relationship to an exhibition catalog that features the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## exhibitionOf
+
+* label: Exhibition of
+* refines: <http://bibfra.me/vocab/dcrmb/citations>
+* synonyms: 
+* description: Relationship to resources featured in an exhibition catalog
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## citedIn
+
+* label: Cited In
+* refines: <http://bibfra.me/vocab/dcrmb/citations>
+* synonyms: <http://bibfra.me/vocab/marc/citationUri>
+* description: Relationship to a resource that cites the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: Suggest revision of <http://bibfra.me/vocab/marc/citationUri> to reflect citedIn / citedBy reflexive relationship
+
+
+## cites
+
+* label: Cites
+* refines: <http://bibfra.me/vocab/dcrmb/citations>
+* synonyms: 
+* description: Relationship to a resource cited in the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## reproduction
+
+* label: Reproduction
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Relationship to a reproduction of the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## preferredCitation
+
+* label: Preferred Citation
+* refines: <http://bibfra.me/vocab/>
+* synonyms: 
+* description: Phrasing for preferred citation when referencing the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## issue
+
+* label: Issue
+* refines: <http://bibfra.me/vocab/marc/edition>
+* synonyms: 
+* description: Details about the particular issue of the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## state
+
+* label: State
+* refines: <http://bibfra.me/vocab/marc/edition>
+* synonyms: 
+* description: Details about the particular state of the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## advertisement
+
+* label: Advertisement for
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Note about advertisements included in the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## errata
+
+* label: Errata
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Note about errata slips
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## originCulture
+
+* label: Culture
+* refines: <http://bibfra.me/vocab/marc>
+* synonyms: 
+* description: Culture from which the creation of the work originated
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## depicts
+
+* label: Depicts
+* refines: <http://bibfra.me/vocab/lite/subject>
+* synonyms: 
+* description: Index term for something or someone featured and/or depicted in/on the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: The ‘of-ness’ of a work
+
+
+## researchApplication
+
+* label: Research Application
+* refines: <http://bibfra.me/vocab/lite/subject>
+* synonyms: 
+* description: Index disciplines, methods, etc. which would likely find applications for the resource 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: The ‘useful-ness’ of a work
+
+
+## workType
+
+* label: Work Type
+* refines: <http://bibfra.me/vocab/lite/genre>
+* synonyms: 
+* description: Index the kind of work or works being described
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## style
+
+* label: Style
+* refines: <http://bibfra.me/vocab/lite/genre>
+* synonyms: 
+* description: Index artistic or cultural styles used in the work
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
 
 
