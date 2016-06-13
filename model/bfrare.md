@@ -429,3 +429,270 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
+
+
+## fictitiousDate
+
+* label: Fictitious Date
+* refines: <http://bibfra.me/vocab/lite/date>
+* synonyms: 
+* description: Fictitious date associated with the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## incorrectDate
+
+* label: Incorrect Date
+* refines: <http://bibfra.me/vocab/lite/date>
+* synonyms: 
+* description: Incorrect date associated with the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## freedomUse
+
+* label: Freedom to Use
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Freedoms to use content, such as creative commons licenses
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## restrictionUse
+
+* label: Restrictions on Use
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Restrictions on access or use of the resource and its content, such as intellectual property rights or embargos
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## titleSource
+
+* label: Title Source
+* refines: <http://bibfra.me/vocab/lite/title>
+* synonyms: 
+* description: Source of the title, used when not explicitly given on the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: Includes devised title
+
+
+## translationOf
+
+* label: Translation of
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## translatedAs
+
+* label: Translated as
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## issuedAlsoAs
+
+* label: Issued Also as
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## supplementTo
+
+* label: Supplement to
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## supplementedBy
+
+* label: Supplemented by
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: Includes issued with and indexes
+
+
+
+<!--  Serials-specific stuff below -->
+
+## reissueOf
+
+* label: Re-issue of
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Relationship to a resource which the resource is a re-issue of
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## reissuedAs
+
+* label: Re-issued as
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## continues
+
+* label: Continues
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## continuedBy
+
+* label: Continued by
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## mergerOf
+
+* label: Merger of
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: Includes merger of and absorbed
+
+
+## mergedWith
+
+* label: Merged with
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: Includes merged with and absorbed into
+
+
+## splitInto
+
+* label: Split into
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## separatedFrom
+
+* label: Separated from
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## variantOf
+
+* label: Variant of
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Relationship to a resource which the resource is a variant of
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## numbering
+
+* label: Numbering
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Note about numbering schemes, especially used for series and serials
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## numbering
+
+* label: Numbering
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Note about numbering schemes, especially used for series and serials
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## beganWith
+
+* label: Began with
+* refines: <http://bibfra.me/vocab/dcrmb/numbering>
+* synonyms: 
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## ceasedWith
+
+* label: Ceased with
+* refines: <http://bibfra.me/vocab/dcrmb/numbering>
+* synonyms: 
+* description: 
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## betweenIssuesOf
+
+* label: Issued Between Issues of
+* refines: <http://bibfra.me/vocab/lite/title>
+* synonyms: 
+* description: 
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
