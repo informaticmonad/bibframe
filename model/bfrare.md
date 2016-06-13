@@ -242,6 +242,17 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
+## technique
+
+* label: Technique
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Index techniques used to make the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
 ## material
 
 * label: Material
@@ -251,6 +262,61 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * value: URI
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
+ 
+
+## paper
+
+* label: Paper
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Description of paper used to make the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## type
+
+* label: Type
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Description of type used to make the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## typeTerm
+
+* label: Type Term
+* refines: <http://bibfra.me/vocab/dcrmb/type>
+* synonyms: 
+* description: Index typefaces and type features used to make the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## printmaking
+
+* label: Printmaking
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Description of printmaking processes used to make the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## printmakingTerm
+
+* label: Printmaking Term
+* refines: <http://bibfra.me/vocab/dcrmb/printmaking>
+* synonyms: 
+* description: Index printmaking processes used to make the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark:  
 
 
 ## exhibition
