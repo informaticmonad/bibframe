@@ -719,17 +719,6 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
-## numbering
-
-* label: Numbering
-* refines: <http://bibfra.me/vocab/dcrmb>
-* synonyms: 
-* description: Note about numbering schemes, especially used for series and serials
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
-
-
 ## beganWith
 
 * label: Began with
