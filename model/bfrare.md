@@ -296,6 +296,38 @@ A section defining a property (analogous to an RDF property), as indicated by co
 * remark: 
 
 
+## advertisement
+
+* label: advertisement
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Note about advertisements included in the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## errata
+
+* label: errata
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Note about errata slips
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## expansionCorrection
+
+* label: expansion
+* refines: <http://bibfra.me/vocab/lite/extent/>
+* description: Note on expansions or corrections
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+
+
+
 <!-- materials & techniques -->
 
 ## technique
@@ -557,29 +589,33 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 
 
-<!-- dates -->
+<!-- Dates -->
 
 ## fictitiousDate
 
 * label: fictitious date
 * refines: <http://bibfra.me/vocab/lite/date>
-* synonyms: 
 * description: Fictitious date associated with the resource
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 
 ## incorrectDate
 
 * label: incorrect date
 * refines: <http://bibfra.me/vocab/lite/date>
-* synonyms: 
 * description: Incorrect date associated with the resource
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
+
+## situationDate
+
+* label: situation date
+* refines: <http://bibfra.me/vocab/lite/date>
+* description: date (or dates) of the information shown on the material
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
 
 
 <!-- Copyright -->
@@ -588,49 +624,25 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: freedom to use
 * refines: <http://bibfra.me/vocab/lite/copyright>
-* synonyms: 
 * description: Freedoms to use and/or reproduce content, such as creative commons licenses
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 
 ## restrictionUse
 
 * label: restrictions on use
 * refines: <http://bibfra.me/vocab/lite/copyright>
-* synonyms: 
 * description: Restrictions on use or reproduction of the resource and its content, such as intellectual property rights or embargos
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 
 
 
-<!-- random stuff -->
-
-## advertisement
-
-* label: advertisement
-* refines: <http://bibfra.me/vocab/dcrmb>
-* synonyms: 
-* description: Note about advertisements included in the resource
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 
-## errata
-
-* label: errata
-* refines: <http://bibfra.me/vocab/dcrmb>
-* synonyms: 
-* description: Note about errata slips
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
-
+<!-- Miscellaneous -->
 
 ## reproduction
 
@@ -700,7 +712,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 * remark: 
 
 
-<!--  Serials-specific -->
+<!--  Serials -->
 
 ## issuedAlsoAs
 
@@ -939,137 +951,98 @@ A section defining a property (analogous to an RDF property), as indicated by co
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
 
-## extentNote
 
-* label: extent
-* refines: <http://bibfra.me/vocab/lite/extent/>
-* synonyms: 
-* description: Note on expansions or corrections
-* value: 
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
+
 
 ## layout
 
 * label: layout
 * refines: <http://bibfra.me/vocab/marc/otherPhysicalDetails/>
-* synonyms: 
-* description: Layout of map, i.e. “both sides” or “back to back”
-* value: 
+* description: Layout of map, i.e. “both sides” or “back to back”, and/or note to describe any other unusual layout of the map(s), etc.
+* value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
-## layoutNote
-
-* label: layout note
-* refines: < http://bibfra.me/vocab/marc/otherPhysicalDetails/Layout/>
-* synonyms: 
-* description: Note to describe any other unusual layout of the map(s), etc.
-* value: 
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 ## mapDissected
 
 * label: dissected map
-* refines: <http://bibfra.me/vocab/ otherPhysicalDetails/>
-* synonyms: 
+* refines: <http://bibfra.me/vocab/otherPhysicalDetails/>
 * description: Indication if cartographic material has been dissected
-* value: 
+* value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
+
 
 ## mapMounted
 
 * label: mounted map
-* refines: < http://bibfra.me/vocab/ otherPhysicalDetails/>
-* synonyms: 
+* refines: <http://bibfra.me/vocab/otherPhysicalDetails>
 * description: Indication if map has been mounted
-* value: 
+* value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
+
 
 ## coverage
 
 * label: coverage
 * refines: < http://bibfra.me/vocab/lite/note/>
-* synonyms: 
-* description: geographic coverage of the material, unless apparent from the rest of the description
+* description: Geographic coverage of the material, unless apparent from the rest of the description
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
-## situationDate
-
-* label: situation date
-* refines: < http://bibfra.me/vocab/lite/date/>
-* synonyms: 
-* description: date (or dates) of the information shown on the material
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 ## magnitude
 
 * label: magnitude
-* refines: < http://bibfra.me/vocab/dcrmc/coordinatesnote>
-* synonyms: 
-* description: magnitude of celestial charts
+* refines: <http://bibfra.me/vocab/rare/coordinatesnote>
+* description: Magnitude of celestial charts
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
+
 
 ## dedication
 
 * label: dedication note
-* refines: < http://bibfra.me/vocab/lite/note/>
-* synonyms: 
-* description: grammatically separable dedications appearing in the chief source of information that have been omitted from the transcription
+* refines: <http://bibfra.me/vocab/lite/note>
+* description: Grammatically separable dedications appearing in the chief source of information that have been omitted from the transcription
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
+
 
 ## inset
 
 * label: inset
-* refines: < http://bibfra.me/vocab/dcrmc/>
-* synonyms: 
+* refines: < http://bibfra.me/vocab/rare>
 * description: information relating to insets, ancillary maps, supplementary maps, maps on the verso of a sheet, illustrations, etc.
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
+
 
 ## appearsIn
 
 * label: appears in
-* refines: < http://bibfra.me/vocab/dcrmc>
-* synonyms: 
+* refines: < http://bibfra.me/vocab/rare>
 * description: Relationship to work in which an identical plate appears, but cannot definitely be determined to be removed from.
 * value: URI
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 
 
-<!-- Archival stuff -->
+<!-- Archives -->
 
 ## accruals
 
 * label: accruals
-* refines: < http://bibfra.me/vocab/archive>
-* synonyms: 
+* refines: <http://bibfra.me/vocab/archive>
 * description: Information regarding accruals or planned additions to a collection.
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 
 ## retentionSchedule
 
 * label: retention schedule
-* refines: < http://bibfra.me/vocab/dcrmc>
-* synonyms: 
+* refines: <http://bibfra.me/vocab/archive>
 * description: Information about retention schedules or planned destruction
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: 
+
