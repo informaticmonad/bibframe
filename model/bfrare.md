@@ -588,7 +588,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## supplementTo
 
 * label: Supplement to
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -599,7 +599,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## supplementedBy
 
 * label: Supplemented by
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -613,7 +613,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## reissueOf
 
 * label: Re-issue of
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: Relationship to a resource which the resource is a re-issue of
 * value: URI
@@ -624,7 +624,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## reissuedAs
 
 * label: Re-issued as
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -635,7 +635,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## continues
 
 * label: Continues
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -646,7 +646,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## continuedBy
 
 * label: Continued by
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -657,7 +657,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## mergerOf
 
 * label: Merger of
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -668,7 +668,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## mergedWith
 
 * label: Merged with
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -679,7 +679,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## splitInto
 
 * label: Split into
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -690,7 +690,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## separatedFrom
 
 * label: Separated from
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: 
 * value: URI
@@ -700,7 +700,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## variantOf
 
 * label: Variant of
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: Relationship to a resource which the resource is a variant of
 * value: URI
@@ -711,7 +711,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## numbering
 
 * label: Numbering
-* refines: <http://bibfra.me/vocab/dcrmb>
+* refines: <http://bibfra.me/vocab/dcrms>
 * synonyms: 
 * description: Note about numbering schemes, especially used for series and serials
 * value: Literal
@@ -722,7 +722,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## beganWith
 
 * label: Began with
-* refines: <http://bibfra.me/vocab/dcrmb/numbering>
+* refines: <http://bibfra.me/vocab/dcrms/numbering>
 * synonyms: 
 * description: 
 * value: Literal
@@ -733,7 +733,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 ## ceasedWith
 
 * label: Ceased with
-* refines: <http://bibfra.me/vocab/dcrmb/numbering>
+* refines: <http://bibfra.me/vocab/dcrms/numbering>
 * synonyms: 
 * description: 
 * value: Literal
@@ -750,4 +750,200 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * value: URI
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
+
+
+
+<!-- Amy's cartographic elements -->
+
+## scaleNote
+
+* label: Scale Note
+* refines: <http://bibfra.me/vocab/marc/remainderOfScale>
+* synonyms: 
+* description: Contains additional information regarding scale conversion from bar scale, verbal scale or lack of scale on item.
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## scaleTranscription
+
+* label: Scale Transcription
+* refines: <http://bibfra.me/vocab/marc/remainderOfScale>
+* synonyms: 
+* description: Provides transcription of any scale present but not transcribed in another element
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## verticalScale
+
+* label: Vertical Scale
+* refines: <http://bibfra.me/vocab/marc/representativeFractionOfScale/>
+* synonyms: 
+* description: the vertical scale or exaggeration of a 3D model
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## coordinates
+
+* label: Coordinates
+* refines: <http://bibfra.me/vocab/dcrmc>
+* synonyms: 
+* description: Provides coordinates of cartographic material
+* describes: <http://bibfra.me/vocab/marc/Map/>
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## coordinatesNote
+
+* label: Coordinates Note
+* refines: <http://bibfra.me/vocab/dcrmc/coordinates>
+* synonyms: 
+* description: Additional information about coordinates, such as coordinates not extending to neat line or prime meridian other than Greenwich.
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## equinoxEpoch
+
+* label: Equinox and Epoch
+* refines: <http://bibfra.me/vocab/dcrmc/coordinatesnote>
+* synonyms: 
+* description: Statement of equinox or epoch for celestial materials
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## declinationLimit
+
+* label: Declination Limit
+* refines: <http://bibfra.me/vocab/dcrmc/coordinates>
+* synonyms: 
+* description: For charts centered on one of the two poles, give the declination limit.
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## declinationZones
+
+* label: Declination Zones
+* refines: <http://bibfra.me/vocab/dcrmc/coordinates>
+* synonyms: 
+* description: 
+* value: 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## extentNote
+
+* label: Extent Note
+* refines: <http://bibfra.me/vocab/lite/extent/>
+* synonyms: 
+* description: Note on expansions or corrections
+* value: 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## Layout
+
+* label: Layout
+* refines: <http://bibfra.me/vocab/marc/otherPhysicalDetails/>
+* synonyms: 
+* description: Layout of map, i.e. “both sides” or “back to back”
+* value: 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## layoutNote
+
+* label: Layout Note
+* refines: < http://bibfra.me/vocab/marc/otherPhysicalDetails/Layout/>
+* synonyms: 
+* description: Note to describe any other unusual layout of the map(s), etc.
+* value: 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## mapDissected
+
+* label: Dissected Map
+* refines: <http://bibfra.me/vocab/ otherPhysicalDetails/>
+* synonyms: 
+* description: Indication if cartographic material has been dissected
+* value: 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## mapMounted
+
+* label: Mounted Map
+* refines: < http://bibfra.me/vocab/ otherPhysicalDetails/>
+* synonyms: 
+* description: Indication if map has been mounted
+* value: 
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## coverageNote
+
+* label: Coverage Note
+* refines: < http://bibfra.me/vocab/lite/note/>
+* synonyms: 
+* description: geographic coverage of the material, unless apparent from the rest of the description
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## situationDate
+
+* label: Situation Date
+* refines: < http://bibfra.me/vocab/lite/date/>
+* synonyms: 
+* description: date (or dates) of the information shown on the material
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## magnitudeNote
+
+* label: Magnitude Note
+* refines: < http://bibfra.me/vocab/dcrmc/coordinatesnote>
+* synonyms: 
+* description: magnitude of celestial charts
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## dedicationNote
+
+* label: Dedication Note
+* refines: < http://bibfra.me/vocab/lite/note/>
+* synonyms: 
+* description: grammatically separable dedications appearing in the chief source of information that have been omitted from the transcription
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## insetNote
+
+* label: Inset Note
+* refines: < http://bibfra.me/vocab/dcrmc/>
+* synonyms: 
+* description: information relating to insets, ancillary maps, supplementary maps, maps on the verso of a sheet, illustrations, etc.
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## appearsIn
+
+* label: Appears In
+* refines: < http://bibfra.me/vocab/dcrmc>
+* synonyms: 
+* description: Work in which an identical plate appears, but cannot definitely be determined to be removed from.
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
 
