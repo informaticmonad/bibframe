@@ -495,8 +495,6 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
-
-
 ## fictitiousDate
 
 * label: Fictitious Date
@@ -518,27 +516,6 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
 
-
-## freedomUse
-
-* label: Freedom to Use
-* refines: <http://bibfra.me/vocab/dcrmb>
-* synonyms: 
-* description: Freedoms to use content, such as creative commons licenses
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
-
-
-## restrictionUse
-
-* label: Restrictions on Use
-* refines: <http://bibfra.me/vocab/dcrmb>
-* synonyms: 
-* description: Restrictions on access or use of the resource and its content, such as intellectual property rights or embargos
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
 
 
 ## titleSource
@@ -574,6 +551,58 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
+
+<!-- Access stuff, especially from DACS -->
+
+## freedomUse
+
+* label: Freedom to Use
+* refines: <http://bibfra.me/vocab/dacs>
+* synonyms: 
+* description: Freedoms to use and/or reproduce content, such as creative commons licenses
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## restrictionUse
+
+* label: Restrictions on Use
+* refines: <http://bibfra.me/vocab/dacs>
+* synonyms: 
+* description: Restrictions on access, use, or reproduction of the resource and its content, such as intellectual property rights or embargos
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## technicalAccess
+
+* label: Technical Access
+* refines: <http://bibfra.me/vocab/dacs>
+* synonyms: 
+* description: Notes regarding technical access to content, such as media formats and needed players
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+## physicalAccess
+
+* label: Physical Access
+* refines: <http://bibfra.me/vocab/dacs>
+* synonyms: 
+* description: Notes on physical access to resource, such as location or reading room information
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+
+
+
+
+
+<!--  Serials-specific stuff below -->
+
 ## issuedAlsoAs
 
 * label: Issued Also as
@@ -606,9 +635,6 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * scope: <http://bibfra.me/vocab/rare>
 * remark: Includes issued with and indexes
 
-
-
-<!--  Serials-specific stuff below -->
 
 ## reissueOf
 
@@ -947,3 +973,26 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
+
+<!-- Archival stuff -->
+
+## accruals
+
+* label: Accruals
+* refines: < http://bibfra.me/vocab/dacs>
+* synonyms: 
+* description: Information regarding accruals or planned additions to a collection.
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## retentionSchedule
+
+* label: Retention Schedule
+* refines: < http://bibfra.me/vocab/dcrmc>
+* synonyms: 
+* description: Information about retention schedules or planned destruction
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
