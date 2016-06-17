@@ -107,7 +107,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 ## translationOf
 
 * label: translation of
-* refines: <http://bibfra.me/vocab/rare>
+* refines: <http://bibfra.me/vocab/lite/language> 	
 * description: Relationship to resource which the resource is a translation of
 * value: URI
 * scope: <http://bibfra.me/vocab/rare>
@@ -115,7 +115,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 ## translatedAs
 
 * label: translated as
-* refines: <http://bibfra.me/vocab/rare>
+* refines: <http://bibfra.me/vocab/lite/language>
 * description: Relationship to resource which is a translation of the resource
 * value: URI
 * scope: <http://bibfra.me/vocab/rare>
@@ -127,10 +127,11 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: collation
 * refines: <http://bibfra.me/vocab/lite/note>
+* synonyms: <http://bibfra.me/vocab/dcrmb/signature>
 * description: Collation or signature statement
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
-* remark: suggest replacing siganture element in bibfra.me vocabulary with collation, to encompass manuscript materials
+* remark: Suggest replacing <http://bibfra.me/vocab/dcrmb/signature> with collation, to encompass manuscript materials
 
 ## layout
 
@@ -176,7 +177,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: added materials
 * refines: <http://bibfra.me/vocab/rare/userEngagement>
-* description: Description of materials added to the resource by a user, such as extra-illustrations and insertions.
+* description: Description of materials added to the resource by a user, such as extra-illustrations and insertions
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 
@@ -698,7 +699,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: scale
 * refines: <http://bibfra.me/vocab/marc/remainderOfScale>
-* description: Contains additional information regarding scale conversion from bar scale, verbal scale or lack of scale on item.
+* description: Contains additional information regarding scale conversion from bar scale, verbal scale or lack of scale on item
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 
@@ -714,7 +715,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: vertical scale
 * refines: <http://bibfra.me/vocab/marc/representativeFractionOfScale>
-* description: the vertical scale or exaggeration of a 3D model
+* description: The vertical scale or exaggeration of a 3D model
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 
@@ -731,7 +732,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: coordinates note
 * refines: <http://bibfra.me/vocab/rare/coordinates>
-* description: Additional information about coordinates, such as coordinates not extending to neat line or prime meridian other than Greenwich.
+* description: Additional information about coordinates, such as coordinates not extending to neat line or prime meridian other than Greenwich
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 
@@ -747,7 +748,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: declination limit
 * refines: <http://bibfra.me/vocab/rare/coordinates>
-* description: For charts centered on one of the two poles, give the declination limit.
+* description: For charts centered on one of the two poles, give the declination limit
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 
@@ -811,7 +812,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: appears in
 * refines: < http://bibfra.me/vocab/rare>
-* description: Relationship to work in which an identical plate appears, but cannot definitely be determined to be removed from.
+* description: Relationship to work in which an identical plate appears, but cannot definitely be determined to be removed from
 * value: URI
 * scope: <http://bibfra.me/vocab/rare>
 
@@ -822,7 +823,7 @@ A section defining a property (analogous to an RDF property), as indicated by co
 
 * label: accruals
 * refines: <http://bibfra.me/vocab/archive>
-* description: Information regarding accruals or planned additions to a collection.
+* description: Information regarding accruals or planned additions to a collection
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 
