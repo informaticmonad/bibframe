@@ -92,24 +92,32 @@ A section defining a property (analogous to an RDF property), as indicated by co
 * scope: <http://bibfra.me/vocab/rare>
 * remark: Required element. Recommended ISO 8601 date.
 
-## signature
-
-* label: signature note
-* refines: <http://bibfra.me/vocab/lite/note>
-* description: Superscript numbers represent the number of leaves per gathering. A signature is letter, numeral, symbol, or a group of such characters, printed at the foot of the rectos of the first few leaves of an intended gathering for the purpose of aiding binders in correctly assembling the sections.
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-
-<!---
-
-FYI - Task Force members can separate individual sections of the document using comments. 
-
--->
 
 <!---
 Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding elements already in the bibfra.me vocab (sometimes under a different label)
 
 -->
+
+## collation
+
+* label: Collation
+* refines: <http://bibfra.me/vocab/lite/note>
+* description: Collation or signature statement
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: suggest replacing siganture element in bibfra.me vocabulary with collation
+
+
+## layout
+
+* label: Layout
+* refines: <http://bibfra.me/vocab/amremm>
+* description: Description of page layout
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
 
 ## limitationStatement
 
@@ -142,6 +150,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
+
 
 ## userEngagement
 
@@ -275,28 +284,6 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
-## type
-
-* label: Type
-* refines: <http://bibfra.me/vocab/dcrmb>
-* synonyms: 
-* description: Description of type used to make the resource
-* value: Literal
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
-
-
-## typeTerm
-
-* label: Type Term
-* refines: <http://bibfra.me/vocab/dcrmb/type>
-* synonyms: 
-* description: Index typefaces and type features used to make the resource
-* value: URI
-* scope: <http://bibfra.me/vocab/rare>
-* remark: 
-
-
 ## printmaking
 
 * label: Printmaking
@@ -314,6 +301,28 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * refines: <http://bibfra.me/vocab/dcrmb/printmaking>
 * synonyms: 
 * description: Index printmaking processes used to make the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark:  
+
+
+## decoration
+
+* label: Decoration
+* refines: <http://bibfra.me/vocab/amremm>
+* synonyms: 
+* description: Decorative features, as in illumination, historiation, designs, and patterns
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark:  
+
+
+## decorationTerm
+
+* label: Decoration
+* refines: <http://bibfra.me/vocab/amremm/decoration>
+* synonyms: 
+* description: Index decorative features
 * value: URI
 * scope: <http://bibfra.me/vocab/rare>
 * remark:  
@@ -391,6 +400,17 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * refines: <http://bibfra.me/vocab/>
 * synonyms: 
 * description: Phrasing for preferred citation when referencing the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## version
+
+* label: Version
+* refines: <http://bibfra.me/vocab/marc/edition>
+* synonyms: 
+* description: Statement about the version of the resource, as in manuscript tradition
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
@@ -575,6 +595,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
 
+
 ## technicalAccess
 
 * label: Technical Access
@@ -584,6 +605,7 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * value: Literal
 * scope: <http://bibfra.me/vocab/rare>
 * remark: 
+
 
 ## physicalAccess
 
@@ -596,9 +618,62 @@ Below is a compilation of Arielle's, Amy's, and Allison's notes, excluding eleme
 * remark: 
 
 
+## shelfmark
+
+* label: Shelfmark
+* refines: <http://bibfra.me/vocab/dacs>
+* synonyms: 
+* description: Current and former shelfmarks
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
 
 
 
+<!-- Letterforms stuff from DCRMB and AMREMM -->
+
+## type
+
+* label: Type
+* refines: <http://bibfra.me/vocab/dcrmb>
+* synonyms: 
+* description: Description of type used to make the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## typeTerm
+
+* label: Type Term
+* refines: <http://bibfra.me/vocab/dcrmb/type>
+* synonyms: 
+* description: Index typefaces and type features used to make the resource
+* value: URI
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## script
+
+* label: Letterform
+* refines: <http://bibfra.me/vocab/amremm>
+* synonyms: 
+* description: Description of script(s) used to make the resource, as in calligraphy or manuscript hands
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
+
+
+## scriptTerm
+
+* label: Letterform
+* refines: <http://bibfra.me/vocab/amremm/script>
+* synonyms: 
+* description: Index letterforms used to make the resource
+* value: Literal
+* scope: <http://bibfra.me/vocab/rare>
+* remark: 
 
 
 <!--  Serials-specific stuff below -->
